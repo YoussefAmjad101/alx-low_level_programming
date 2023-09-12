@@ -1,4 +1,10 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * _abs - my program
+ * Description: computes the absolute value of an integer.
+ * @nbr: The number to compute its absolute value.
+ * Return: Absolute value of the number.
+ */
 
 int _abs(int n) {
     if(n < 0) {
