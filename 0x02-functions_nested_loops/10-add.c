@@ -6,13 +6,7 @@
  * @nbr2: variable that stocks the second number to be add.
  * Return: Return the result.>_<
  */
-int add(int a, int b) {
-    return a + b;
-}
-
-int main() {
-   int n;
-   n = add(89, 9);
-   printf("%d\n", n);
-  return 0;
+int add(int nbr1, int nbr2)
+{
+	return (nbr1 + nbr2);
 }
